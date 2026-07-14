@@ -1,0 +1,33 @@
+{
+    "skills": [
+        "Basic HTML",
+        "Basic CSS",
+        "Basic JavaScript",
+        "Currently Learning Web Development",
+        "Willing to Learn New Skills",
+        "Attention to Detail",
+        "Basic Computer Knowledge",
+        "Teamwork & Cooperation"
+    ],
+    "education": [
+        {
+            "institution": "Lorma College",
+            "degree": "Bachelor of Science in Information Technology",
+            "period": "2025 – Present",
+            "description": "Currently studying, learning the basics of Information Technology."
+        },
+        {
+            "institution": "Web Development 1",
+            "degree": "Summer Class",
+            "period": "Summer 2026",
+            "description": "Learning how to build and design simple websites using HTML, CSS and basic JavaScript."
+        },
+        {
+            "institution": "Senior High School",
+            "degree": "Information and Communications Technology Strand",
+            "period": "2023 – 2025",
+            "description": "Finished SHS with focus on computer and technology subjects."
+        }
+    ]
+}
+
