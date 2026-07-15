@@ -33,7 +33,7 @@ header {
 
 nav {
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 0 Auto;
     display: flex;
     flex-direction: column;
     gap: 0.8rem;
@@ -64,7 +64,7 @@ nav {
 
 main {
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 0;
     padding: 1.5rem 3%;
 }
 
@@ -171,6 +171,6 @@ footer {
         font-size: 2.5rem;
     }
     #projects-container {
-        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        grid-template-columns: repeat(Auto-fit, minmax(300px, 1fr));
     }
 }
