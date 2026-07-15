@@ -6,9 +6,7 @@ document.addEventListener('DOMContentLoaded', function() {
             renderProjects(data.projects);
             renderEducation(data.education);
         })
-        .catch(err => {
-            console.log("Using HTML content — works fine");
-        });
+        .catch(err => console.log("Content already loaded in HTML - works fine"));
 
     function renderSkills(skills) {
         const container = document.getElementById('skills-container');
@@ -50,4 +48,5 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 });
+
 

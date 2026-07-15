@@ -6,23 +6,24 @@
         "Currently Learning Web Development",
         "Willing to Learn New Skills",
         "Attention to Detail",
-        "Basic Computer Knowledge"
+        "Basic Computer Knowledge",
+        "Teamwork & Cooperation"
     ],
     "projects": [
         {
             "name": "Simple Personal Bio Page",
             "tools": "HTML & Basic CSS",
-            "desc": "My very first project — simple page showing my name, course, and basic info."
+            "desc": "My very first project — simple page showing my name, course, and basic information."
         },
         {
             "name": "Class Schedule Table",
             "tools": "HTML Tables & CSS",
-            "desc": "Clean and organized layout"
+            "desc": "Clean and organized layout of my Summer Class schedule."
         },
         {
             "name": "This Dynamic Portfolio",
             "tools": "HTML, CSS, JavaScript & JSON",
-            "desc": "My current project — loads skills and education data from JSON file."
+            "desc": "My current project — fully styled portfolio with complete details."
         }
     ],
     "education": [
@@ -39,6 +40,7 @@
             "description": "Learning how to build and design simple websites using HTML, CSS and basic JavaScript."
         },
         {
+
             "institution": "Senior High School",
             "degree": "Information and Communications Technology Strand",
             "period": "2023 – 2025",
@@ -46,6 +48,3 @@
         }
     ]
 }
-
-
-
