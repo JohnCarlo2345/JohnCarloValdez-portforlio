@@ -156,7 +156,6 @@ footer {
     font-size: 0.95rem;
 }
 
-/* RESPONSIVE */
 @media (min-width: 768px) {
     nav {
         flex-direction: row;
