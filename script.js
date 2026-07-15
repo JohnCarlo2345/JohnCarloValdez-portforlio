@@ -3,9 +3,12 @@ document.addEventListener('DOMContentLoaded', function() {
         .then(res => res.json())
         .then(data => {
             renderSkills(data.skills);
+            renderProjects(data.projects);
             renderEducation(data.education);
         })
-        .catch(err => console.log("Using HTML content — works fine"));
+        .catch(err => {
+            console.log("Using HTML content — works fine");
+        });
 
     function renderSkills(skills) {
         const container = document.getElementById('skills-container');
@@ -14,6 +17,21 @@ document.addEventListener('DOMContentLoaded', function() {
             const p = document.createElement('p');
             p.textContent = skill;
             container.appendChild(p);
+        });
+    }
+
+    function renderProjects(projects) {
+        const container = document.getElementById('projects-container');
+        container.innerHTML = '';
+        projects.forEach(item => {
+            const card = document.createElement('div');
+            card.className = 'project-card';
+            card.innerHTML = `
+                <h3>${item.name}</h3>
+                <p><strong>Created with:</strong> ${item.tools}</p>
+                <p>${item.desc}</p>
+            `;
+            container.appendChild(card);
         });
     }
 

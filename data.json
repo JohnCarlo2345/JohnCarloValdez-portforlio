@@ -9,6 +9,23 @@
         "Basic Computer Knowledge",
         "Teamwork & Cooperation"
     ],
+    "projects": [
+        {
+            "name": "Simple Personal Bio Page",
+            "tools": "HTML & Basic CSS",
+            "desc": "My very first project — simple page showing my name, course, and basic info."
+        },
+        {
+            "name": "Class Schedule Table",
+            "tools": "HTML Tables & CSS",
+            "desc": "Clean and organized layout of my Summer Class schedule."
+        },
+        {
+            "name": "This Dynamic Portfolio",
+            "tools": "HTML, CSS, JavaScript & JSON",
+            "desc": "My current project — loads skills and education data from JSON file."
+        }
+    ],
     "education": [
         {
             "institution": "Lorma College",
@@ -30,4 +47,6 @@
         }
     ]
 }
+
+
 
